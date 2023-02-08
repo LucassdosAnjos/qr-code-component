@@ -34,11 +34,14 @@ body {
 
 .texto {
     padding: 22px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .texto h3 {
     color: hsl(218, 44%, 22%);
     padding-bottom: 15px;
+    text-align: center;
 }
 
 .text p {
